@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Task" ADD COLUMN     "comment" TEXT,
+ADD COLUMN     "status" TEXT NOT NULL DEFAULT 'ON_PROGRESS';
